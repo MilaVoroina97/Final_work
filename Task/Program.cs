@@ -17,3 +17,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+GetThreeSymbolsElemnets(result,result2);
+Console.WriteLine("Элементы, состоящие из трех символов: ");
+PrintArray(result2);
