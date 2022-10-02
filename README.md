@@ -44,3 +44,10 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 ```
+
+5. Ну и в конце осталось лишь использовать описанные выше методы для решения задачи и вывести на экран элементы, с тремя символами:
+```c#
+GetThreeSymbolsElemnets(result,result2);
+Console.WriteLine("Элементы, состоящие из трех символов: ");
+PrintArray(result2);
+```
