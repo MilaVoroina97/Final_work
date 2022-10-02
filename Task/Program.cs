@@ -9,3 +9,11 @@ void GetThreeSymbolsElemnets(string[] array1,string[] array2)
         if(array1[i].Length <= 3) array2[i] = array1[i];
     }
 }
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($" '{array[i]}' ");
+    }
+    Console.WriteLine();
+}
